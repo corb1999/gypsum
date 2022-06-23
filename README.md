@@ -1,7 +1,7 @@
 # gypsum
 *user-friendly R script utility to aggregate zip codes in maps using simple features and a provided grouping*
 
-## Insutructions
+## Instructions for New R Users
 - Download RStudio (and R) and install these packages: tidyverse, lubridate, readxl, tidycensus, sf
 - Copy the entire **gypsum** project folder into a spot on your local computer.  Then open the project within R Studio.
 - Get a US Census API Key (very easy): [Census API Site](https://api.census.gov/data/key_signup.html)
