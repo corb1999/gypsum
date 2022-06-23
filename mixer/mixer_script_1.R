@@ -1,7 +1,6 @@
 
 library(tidyverse)
 library(lubridate)
-library(janitor)
 library(readxl)
 library(tidycensus)
 library(sf)
