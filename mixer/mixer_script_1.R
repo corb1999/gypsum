@@ -63,9 +63,9 @@ clockout()
 dim(raw_df)
 
 if (nrow(raw_df) > 0 & ncol(raw_df) > 1) {
-  print(colnames(raw_df))
+  print('Column names found: ' %ps% colnames(raw_df))
 } else {
   print('Problem with geo mapping lookup in Excel')
 }
 
-
+rm(interim, file_cabinet, geo_grouping_filepath)
